@@ -1,7 +1,8 @@
-import React from 'react'
 
 export default function page() {
   return (
-    <div>page</div>
+    <div>
+      <h1>projetos</h1>
+    </div>
   )
 }
