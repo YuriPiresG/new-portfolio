@@ -26,7 +26,7 @@ module.exports = {
           from: { height: 0 },
           to: { height: "var(--radix-accordion-content-height)" },
         },
-  
+
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
@@ -41,11 +41,12 @@ module.exports = {
       },
 
       colors: {
+        olive: "#423e37",
         blackestBlue: "#1B262C",
         deepBlue: "#0F4C75",
         blue: "#3282B8",
         lightBlue: "#BBE1FA",
-        glass: "rgba(255, 255, 255, 0.08)",
+        glass: "rgba(0, 255, 255, 0.5)",
       },
     },
   },
