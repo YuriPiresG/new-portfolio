@@ -16,8 +16,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-top bg-cityBg bg-no-repeat">
-        {children}
+      <body className="bg-glass-effect bg-cityBg bg-top bg-no-repeat">
+        <div className="flex h-screen w-screen items-center justify-center overflow-x-hidden">
+          <main className="mx-3 mt-16 grid w-full max-w-[50rem] grid-cols-2 items-center justify-center gap-3">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );
