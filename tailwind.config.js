@@ -38,6 +38,7 @@ module.exports = {
       },
       boxShadow: {
         glass: "0 4px 30px rgba(0, 0, 0, 0.1)",
+        redWine: "0 4px 30px rgba(0, 0, 0, 0.1)",
       },
 
       colors: {
@@ -47,6 +48,7 @@ module.exports = {
         blue: "#3282B8",
         lightBlue: "#BBE1FA",
         glass: "rgba(0, 255, 255, 0.5)",
+        redWine: "rgba(89, 4, 20, 0.8)",
       },
     },
   },
