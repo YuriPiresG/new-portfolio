@@ -9,7 +9,7 @@ import socialGif from "../assets/socialGif.gif";
 export default function MenuWithGif() {
   return (
     <>
-      <section className="group mt-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-glass backdrop-blur-md">
+      <section className="group mt-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-redWine backdrop-blur-md">
         <Link href="/projects">
           <Image
             src={projectsGif}
@@ -24,7 +24,7 @@ export default function MenuWithGif() {
         </Link>
       </section>
 
-      <section className="group mt-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-glass backdrop-blur-md">
+      <section className="group mt-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-redWine backdrop-blur-md">
         <Link target="_blank" href="https://github.com/YuriPiresG">
           <Image
             src={githubGif}
@@ -39,7 +39,7 @@ export default function MenuWithGif() {
         </Link>
       </section>
 
-      <section className="group mb-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-glass backdrop-blur-md">
+      <section className="group mb-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-redWine backdrop-blur-md">
         <Link href="/socials">
           <Image
             src={socialGif}
@@ -53,7 +53,7 @@ export default function MenuWithGif() {
           </footer>
         </Link>
       </section>
-      <section className="group mb-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-glass backdrop-blur-md">
+      <section className="group mb-6 flex h-48 w-48 rounded-2xl border-none bg-glass shadow-redWine backdrop-blur-md">
         <Link href="/hobbies">
           <Image
             src={gutsGif}

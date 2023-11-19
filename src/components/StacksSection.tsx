@@ -14,8 +14,8 @@ import {
 
 export default function StacksSection() {
   return (
-    <section className="group relative col-span-2 grid grid-cols-5 items-center justify-center gap-3 rounded-2xl border-none bg-glass p-6 shadow-glass">
-      <h3 className="col-span-5 text-xl font-bold text-olive">Stacks</h3>
+    <section className="group relative col-span-2 grid grid-cols-5 items-center justify-center gap-3 rounded-2xl border-none bg-redWine p-6 shadow-redWine">
+      <h3 className="col-span-5 text-xl font-bold text-green-500">Stacks</h3>
       <h6 className="col-span-5 text-white">
         Tecnologias que utilizo e tenho experiência
       </h6>
